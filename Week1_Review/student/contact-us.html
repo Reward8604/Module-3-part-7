@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Tech Elevator Popsicles</title>
+            
+            <link rel="stylesheet" href="main-layout.css">
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+        
+        <header>
+            <img src="images/te-pops.png" alt="Tech Elevator Popsicle logo" id="te-pops-logo">
+            <h1 id= "headline">Tech Elevator Popsicles</h1>
+            <span></span>
+        <div id="navigation">
+            <nav>
+                <ul>
+                <li>Home</li>
+                <li>Store</li>
+                <li>Contact Us</li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+        <main id= "contact">
+            <h1>Contact Us</h1>
+            <form action="http:// www.tech-elevator-popsicle.dev/api/feedback" method="POST">
+            <label for="name">Name:</label>
+            <div>&nbsp;</div>
+            <input type="text" id="name" name="name" required>
+            <div>&nbsp;</div>
+            
+            <label for="hear-of-us">How did you hear of us?</label>
+            <div>&nbsp;</div>
+            <select name= "popsicle" id="popsicles">
+            <option value="Popsicle Monthly">Popsicle Monthly</option>
+            <option value="Popsicle R Us">Popsicle's R Us</option>
+            <option value="Popsicle and FreezePops">Popsicle's and FreezePops</option>
+            <div>&nbsp;</div>
+
+            <label for="color">What color is your favorite popsicle?</label>
+            <div>&nbsp;</div>
+            <input type="color" id="color" name="color">
+            <div>&nbsp;</div>
+
+            <label for="body">Please let us know any comments you have:</label>
+            <div>&nbsp;</div>
+            <textarea name="body" id="body" cols="60" rows="10"></textarea>
+            <div>&nbsp;</div>
+
+            <label for="submission"></label>
+            <input type="submit" name="submission">
+            </form>
+
+        </main>
+      
+        <footer>© Tech Elevator 2020</footer> 
+    </body>
+</html>    
